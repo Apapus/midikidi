@@ -1,4 +1,5 @@
 var midi = require('midi');
+
 var nconf = require('nconf')
 nconf.env().file({file: 'settings.json'});
 var BiYu =          [24,27,31,34,36,39,43,46,48,51,55,58,60,63,67,70,72,75,79,82,84,87,91,94,96,99,103,106,108,111,115,118];
