@@ -3,6 +3,7 @@ var midi = require('midi');
 
 var output = new midi.output();
 var input = new midi.input();
+
 input.on('message', function(deltaTime, message) {
     console.log(message)
     var channel=message[0] & 0x0f 
